@@ -1,0 +1,74 @@
+.main{
+  display: grid;
+  min-height: 100vh;
+  grid-template-rows: 40px 5px auto;
+}
+.nav {
+  background: lightsteelblue;
+  display: flex;
+}
+
+.nav-tabs>li>a {
+  height: 40px;
+}
+
+.nav-tabs>li>a:hover {
+  height: 40px;
+  background: rgba(255,255,255,0.7);
+}
+
+.pre-scrollable {
+  overflow-y: hidden;
+  height: 50px;
+}
+
+.currentYear {
+  height: 50px;
+  font-size: 35px;
+  padding-left: 15px;
+  font-family: Lucida Calligraphy;
+}
+
+.year-content {
+  display: flex;
+}
+.month {
+  width: 20%;
+  background: lightblue;
+  padding: 10px 20px 10px 20px;
+}
+.day {
+  width: 80%;
+  background: lavender;
+  padding: 20px;
+}
+
+.nav2 {
+  display: flex;
+  height: 50px;
+  margin: 0 5px;
+}
+.nav2:hover{
+  background: rgba(255,255,255,0.7);
+}
+.mark {
+  height: 50px;
+  width: 50px;
+  background: none !important;
+  padding: 0 !important;
+}
+.line {
+  margin:0 47%;
+  width: 6%;
+  background: cadetblue;
+  height: 30%;
+}
+.node{
+  margin: 0 30%;
+  width: 40%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: cadetblue;
+  height: 40%;
+  border-radius: 50%;
+}
